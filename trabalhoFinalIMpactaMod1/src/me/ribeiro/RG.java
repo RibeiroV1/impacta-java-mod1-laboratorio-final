@@ -4,6 +4,12 @@ public class RG {
 	
 	private int numero;
 	private String dataNasc;
+	
+	public RG(int numeroRG, String dataNasc) {
+		this.numero = numeroRG;
+		this.dataNasc = dataNasc;
+	}
+	
 	public int getNumero() {
 		return numero;
 	}

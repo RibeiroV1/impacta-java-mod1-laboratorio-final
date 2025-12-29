@@ -14,8 +14,8 @@ public abstract class Pessoa {
 		this.rg = rg;
 	}
 	
-	abstract void falar(String fala);
-	abstract void mostrarDados();
+	public abstract void falar(String fala);
+	public abstract void mostrarDados();
 	
 	public String getNome() {
 		return nome;
